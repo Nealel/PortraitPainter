@@ -2,7 +2,7 @@ package detection;
 
 
 /**
- * @author JViolaJones, available at https://code.google.com/p/jviolajones/
+ * @author tc/jviolajones
  *
  */
 
