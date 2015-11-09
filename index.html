@@ -22,7 +22,7 @@
       <h1>
 <a id="portraitpainter" class="anchor" href="#portraitpainter" aria-hidden="true"><span class="octicon octicon-link"></span></a>PortraitPainter</h1>
 
-<p>PortraitPainter is a generative art program, capable of creating digital portraits in a variety of styles, without using references images or hand-crafted construction grammars.</p>
+<p>PortraitPainter is a generative art program, capable of creating digital portraits in a variety of styles, without using reference images or hand-crafted construction grammars.</p>
 
 <div align="center">
 <img src="http://imgur.com/kyx1Pla.png">
@@ -33,7 +33,7 @@
 <h2>
 <a id="how-does-it-work" class="anchor" href="#how-does-it-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does it work?</h2>
 
-<p>PortraitPainter uses a combination of genetic algorithms and face detection techniques to evolve face-like images over time.</p>
+<p>PortraitPainter uses a combination of genetic algorithms and face detection techniques to evolve face-like images over  a short period of time.</p>
 
 <ul>
 <li>
@@ -42,7 +42,9 @@
 <strong>Face Detection</strong>: This program uses a modified version of the Viola Jones face detection algorithm implemented at <a href="https://github.com/tc/jviolajones">JViolaJones</a>
 </li>
 <li>
-<strong>Images</strong>: Images are represented as lists of shapes, each with co-ordinates, colour, and opacity. This gives the images their distinctive style, as well as being easier for the GA to select for than pixel-level details.</li>
+<strong>Images</strong>: Images are represented as lists of shapes, each with co-ordinates, colour, and opacity. This gives the images their distinctive style, as well as being easier for the GA to select for than pixel-level details.
+For more information about the process, contact <a href="mailto:LABNeale@gmail.com">LABNeale@gmail.com</a>
+</li>
 </ul>
 
 <div align="center">
@@ -54,11 +56,15 @@
 <h2>
 <a id="how-do-i-use-it" class="anchor" href="#how-do-i-use-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I use it?</h2>
 
-<p>This project is available as a ready-to-run Jar file under the <a href="https://github.com/Nealel/PortraitPainter/releases">releases section</a>. </p>
+<p>This project is available as a ready-to-run <a href="https://github.com/Nealel/PortraitPainter/releases/download/1/PortraitPainter.jar">Jar file</a>. </p>
 
-<p>Once running,the system allows a number of settings to be customized. These are split into three groups: GA (genetic algorithm) settings, Image settings, and Colour palette. The last two groups control the style of the image, and experimentation with these settings is highly encouraged. 
-However, blind experimentation with the GA settings may stop the evolutionary system from working. These are set to roughly appropriate values, but may need to be configured differently for certain image settings. A good rule of thumb for these settings is 'if it's not broken, don't fix it'.
-Individual settings are explaining within the program. </p>
+<p>Once running, the system allows a number of settings to be customized. These are split into three groups: GA (genetic algorithm) settings, Image settings, and Colour palette.</p>
+
+<p>The last two groups control the style of the image, and experimentation with these settings is highly encouraged. </p>
+
+<p>However, blind experimentation with the GA settings may stop the evolutionary system from working. These are set to roughly appropriate default values, but may need to be configured differently for certain image settings. A good rule of thumb for these settings is 'if it's not broken, don't fix it'.</p>
+
+<p>Individual settings are explaining within the program. </p>
 
 <p>Depending on the settings, it may take anywhere from fifteen minutes to an hour to produce the final face. However, at any point, images can be saved and the process can be terminated.</p>
 
@@ -71,7 +77,7 @@ Individual settings are explaining within the program. </p>
 <h2>
 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h2>
 
-<p>This project was created by <a href="https://github.com/Nealel">@NealeL</a> in partial fulfilment of a Master's degree. It uses a modified version of the <a href="https://github.com/tc/jviolajones">JViolaJones</a>, and uses the haarcascade_frontalface_default detector from the OpenCV library.</p>
+<p>This project was created by <a href="https://github.com/Nealel">@NealeL</a> in partial fulfilment of a Master's degree. It uses a modified version of the <a href="https://github.com/tc/jviolajones">JViolaJones</a>, and the haarcascade_frontalface_default detector from the OpenCV library.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Nealel/PortraitPainter">Portraitpainter</a> is maintained by <a href="https://github.com/Nealel">Nealel</a>.</span>
