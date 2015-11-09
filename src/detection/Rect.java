@@ -2,7 +2,7 @@ package detection;
 
 /** 
  * A simple class describing a rectangle, along with a weight.
- * @author JViolaJones, available at https://code.google.com/p/jviolajones/
+ * source: tc/jviolajones
  */
 public class Rect {
 
