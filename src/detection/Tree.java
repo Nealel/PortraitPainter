@@ -6,7 +6,7 @@ import java.util.List;
 /** A binary tree for detection. At each node of the tree, a test (feature) is done on the window. Depending on the result,
  *  either the left or right child of the node is selected and so on. When the process reaches a leaf, the corresponding value is returned.
  *  
- *  @author JViolaJones, available at https://code.google.com/p/jviolajones/
+ *  source: tc/jviolajones
  */
 public class Tree {
 final static int LEFT = 0;

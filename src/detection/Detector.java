@@ -20,8 +20,7 @@ import javax.imageio.ImageIO;
 
 /**
  * 
- * @author JViolaJones, available at https://code.google.com/p/jviolajones/
- * 			Some Functions written or modified by student, as attributed
+ * @author tc/jviolajones, modified by @NealeL
  *
  */
 public class Detector {
@@ -47,7 +46,6 @@ public class Detector {
 	}
 	
 	/**
-	 * @author Student
 	 * @param input inputstream of detector
 	 * @return the detector
 	 */
@@ -168,7 +166,6 @@ public class Detector {
 	
 	/**
 	 * performs detection with default parameters
-	 * @author Student
 	 * @param image the Image to scan
 	 * @return The fitness score
 	 */
@@ -186,9 +183,7 @@ public class Detector {
 	
 	/**
 	 * Scans the image and returns the fitness score
-	 * @author JViolaJones, modified by Student
 	 */
-	// List<java.awt.Rectangle>
 	public float getFaces(BufferedImage image,float baseScale, float scale_inc,float increment, int min_neighbors,boolean doCannyPruning)
 	{
 		//StopWatch sw = new StopWatch();

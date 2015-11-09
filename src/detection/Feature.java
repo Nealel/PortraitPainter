@@ -8,7 +8,7 @@ import java.awt.Point;
  * of the computed value and a threshold. The value is computed as follows : the feature is constituted of weighted rectangles, and the value
  * is the sum of the pixels inside each rectangle, weighted by the rectangle's weight.
  * 
- * @author JViolaJones, available at https://code.google.com/p/jviolajones/
+ * Source: tc/jviolajones
  */
 public class Feature {
 
