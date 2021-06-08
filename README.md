@@ -1,6 +1,10 @@
 # PortraitPainter
+
+**disclaimer: this project was done as part of my master's thesis and has not been updated for many years. I've improved a lot as a developer since I wrote this, and would like to revisit it one day and improve it, but for now, be warned: the computer-vision techniques are out of date, and the code quality is awful.**
+
 PortraitPainter is a generative art program, capable of creating digital portraits in a variety of styles, without using references images or hand-crafted construction grammars.
 
+You can view example output at [http://nealel.github.io/PortraitPainter/](http://nealel.github.io/PortraitPainter/)
 
 How does it work?
 ------
